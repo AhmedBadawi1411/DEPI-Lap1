@@ -1,0 +1,13 @@
+
+.payment-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.payment-container>h1{
+    font-weight: 700;
+    font-size: 60px;
+    color: var(--select-color);
+}

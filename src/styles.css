@@ -1,1 +1,42 @@
-/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+}
+
+h1{
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.light-theme{
+    --black-color : #000000;
+    --gray-color-500 : #5E5E5E;
+    --gray-color-400 : #F0F0F0;
+    --green-color : #1BB66E;
+    --red-color : #DC3545;
+    --select-color : #3AA0F5;
+    --white-color : #FFFFFF;
+
+    --info-font-size: 12px;
+    --lable-font-size: 14px;
+    --body-font-size: 16px;
+    --title-font-size-min: 20px;
+    --title-font-size-mid: 24px;
+    --title-font-size-reg: 30px;
+    --title-font-size-lg: 38px;
+    --title-font-size-extra: 48px;
+
+    --font-weight-100 : 100;
+    --font-weight-200 : 200;
+    --font-weight-300 : 300;
+    --font-weight-400 : 400;
+    --font-weight-500 : 500;
+    --font-weight-600 : 600;
+    --font-weight-700 : 700;
+    --font-weight-800 : 800;
+    --font-weight-900 : 900;
+}
